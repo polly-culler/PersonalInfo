@@ -1,0 +1,108 @@
+
+
+#pageview1-row2{
+    margin-left: 420px;
+
+}
+
+#pageview1-row2-col1{
+    width: 150px;
+    height: 170px;
+    display: block;
+    background: #f06292;
+    margin-top: 20px;
+}
+#pageview1-row2-col2{
+    width: 150px;
+    height: 150px;
+    display: block;
+    background: #f06292;
+    margin-top: 20px;
+}
+#pageview1-row2-col3{
+    width: 150px;
+    height: 180px;
+    display: block;
+    background: #f06292;
+    margin-top: 20px;
+}
+
+#pageview1-row3{
+    margin-left: 600px;
+}
+
+#pageview1-row3-row1{
+    width: 370px;
+    height: 160px;
+    display: block;
+    background: #f06292;
+    margin-top: -540px;
+}
+
+#pageview1-row3-row2-col1{
+    width: 165px;
+    height: 200px;
+    background: #f06292;
+    margin-top: 20px;
+}
+
+#pageview1-row3-row2-col2{
+    width: 165px;
+    height: 140px;
+    background: #f06292;
+    margin-top: 20px;
+}
+
+#pageview1-row3-row3{
+    width: 165px;
+    height: 360px;
+    background: #f06292;
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-top: -360px;
+}
+
+
+.list{
+    position: fixed;
+    top: 200px;
+    right: 30px;
+}
+
+.list li{
+    list-style: none;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #e28ba8;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.contactMe span{
+    font-family: 'Kaushan Script';
+    margin-top: 240px;
+    text-align: center;
+    display: block;
+    color: #f06292;
+    font-size: 48px;
+}
+.CMlogo{
+    display: block;
+    text-align: center;
+}
+.CMlogo a img{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#footer-copyright{
+    font-family: 'Kaushan Script';
+    text-align: center;
+    color: #f06292;
+    font-size: 16px;
+    margin-top: 150px;
+}
+.footer{
+    position: fixed;
+}

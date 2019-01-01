@@ -1,0 +1,209 @@
+.phoneBody {
+  width: 100%;
+  height: 120vh;
+  /*background: #1B2B34;*/
+  display: flex;
+  font-family: sans-serif;
+  margin-left: -250px;
+}
+
+.phoneContain {
+  width: 309px;
+  height: 625.5px;
+  margin: 50px 0 0 350px;
+  align-items:  center;
+  border-radius: 30px;
+  box-shadow: 5px 5px 3em black;
+}
+
+.tabletblack {
+/*   --image: url('https://s-media-cache-ak0.pinimg.com/originals/9f/cd/d1/9fcdd191dbc81188b1437629cfeaf963.jpg');
+ */
+}
+
+.frame {
+  width: 309px;
+  height: 625.5px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.1) 15%, rgba(0,0,0,0)),
+              linear-gradient(129deg, rgba(0,0,0,0) 50%, rgba(255,255,255,0.2) 45%, rgba(0,0,0,0)),
+              no-repeat center var(--image), #151515;
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border-top: 51px solid black;
+  border-bottom: 58.5px solid black;
+  border-left: 7.5px solid black;
+  border-right: 7.5px solid black;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.3),
+              0 0 0 5.5px #000,
+              0 0 30px rgba(0,0,0,0.3);
+  position: relative;
+
+}
+
+.frame:before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  top: -2px;
+  left: 181px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frame:before {
+  width: 13px;
+  height: 13px;
+  background: #333;
+  margin-top: -33px;
+}
+.frame:after {
+  content: '';
+  position: absolute;
+  border-radius: 2em;
+  top: 0px;
+  right: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frame:after {
+  width: 55px;
+  height: 8px;
+  background: #333;
+  margin-top: -33px;
+}
+.lightbutton{
+   content: '';
+  position: absolute;
+  border-radius: 50%;
+  top: -2px;
+  left: 102px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lightbutton{
+  width: 12px;
+  height: 12px;
+  background: #333;
+  margin-top: -33px;
+}
+/*.frame:after {
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  margin-bottom: -45px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.1),
+              0 0 0 2px gray;
+}*/
+.honorlogo img{
+  width: 88.2px;
+  height: 30.1px;
+  padding-top: 13px;
+}
+.honorlogo{
+  text-align: center;
+  margin-top:500px;
+  position: relative;
+
+}
+
+.headerbar {
+  height: 16px;
+  color: rgb(66,66,66);
+  font-family: sans-serif;
+  margin-top: -1px;
+  margin-left: 40px;
+
+}
+
+li {
+  list-style: none;
+  display: inline;
+
+}
+
+.huaweilabel {
+  margin-left: -36px;
+  font-size: 10px;
+}
+
+.wifilogo {
+  margin-left: 97px;
+  margin-top: 2px;
+}
+
+.wifilogo:before {
+    content: '';
+    width: 0; height: 0;
+}
+
+.wifilogo, .wifilogo:before {
+  display: inline-flex;
+    border: 5px double transparent;
+    border-top-color: currentColor;
+    border-radius: 50%;
+}
+
+.batterylabel{
+  font-size: 10px;
+  margin-left: -5px;
+}
+
+.batterylogo {
+  /*padding-bottom: 2px;*/
+  margin-left: -28px;
+  top: -2px;
+  position: relative;
+}
+
+.batterylogo:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  top: 7px; left: 30px;
+  width: 16px;
+  height: 6px;
+      border: 2px solid #757575;
+    background-color: rgb(66, 66, 66);
+}
+
+.batterylogo:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: rgb(66,66,66);
+  top: 9px;
+  right: -53px;
+  width: 2px;
+  height: 6px;
+  border-radius: 2px;
+}
+.timelabel{
+  font-size: 10px;
+  margin-left: 56px;
+}
+
+/*.time {
+  background: transparent;
+  margin-top:50px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+.date {
+  background: transparent;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+*/
+.dock {
+  background: transparent;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 16px;
+  color: lightgray;
+}

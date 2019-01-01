@@ -1,0 +1,194 @@
+
+/*banner*/
+.navbar .brand{
+  font-family: 'Kaushan Script';
+  color: #f06292;
+}
+/*.bannerImg{
+  width: 182px;
+  height: 24px;
+}
+.scrollBtn{
+  margin-top: -300px;
+}
+#scrollBtn2{
+  margin-left: 640px;
+}
+#scrollBtn1{
+  margin-left: 10px;
+}*/
+
+
+/*slide*/
+/**{
+  margin: 0;
+  padding: 0;
+}*/
+
+#banner{
+  position: relative;
+}
+#banner img{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  display: none;
+}
+#banner img.first{
+  display: block;
+}
+.banner-list{
+  margin: 0;
+  padding: 0;
+  width: 63px;
+  background: #ccc;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -45px;
+  margin-top: 21.5%;
+
+}
+.banner-list li{
+  list-style: none;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  margin-left: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.banner-list li.action{
+  background: #f06292;
+}
+
+#banner a{
+  text-decoration: none;
+  width: 30px;
+  height: 60px;
+  color: #fff;
+  background: #f06292;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  margin-top: 10%;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: none;
+}
+#banner a.left{
+  left: 10px;
+
+}
+#banner a.right{
+  right: 10px;
+
+}
+/*main*/
+
+.viewDetails{
+  background: #f06292;
+  color: white;
+}
+
+#indexhtml{
+  margin-top: 350px;
+}
+/*.background{
+  position: relative;
+  z-index: 0;
+}*/
+#cover{
+  position: relative;
+}
+.index-pic{
+
+  overflow: hidden;
+
+}
+.index-pic img{
+   position: absolute;
+  z-index: 1;
+  transition : -webkit-transform 1s;/*延迟效果*/
+}
+.index-pic img:hover{
+  transform: scale(1.03,1.03);/*放大的倍数*/
+}
+#left{
+  float: left;
+}
+#right{
+  float: right;
+}
+/*#index-left-right{
+  margin-top: -322px;
+}*/
+#detail{
+  position: absolute;
+  color: #f06292;
+  font-family: Graphik_Regular,Arial,sans-serif;
+  font-size: 4.5em;
+  line-height: 0.9em;
+  margin-top: -180px;
+  display: block;
+  text-align: center;
+  z-index: 2;
+}
+#button-left{
+  margin-top: 60px;
+  margin-left: 255px;
+  background: #f06292;
+  color: white;
+}
+.button-none{
+  background: none;
+  font-family: Graphik_Regular,Arial,sans-serif;
+  color: #f06292;
+}
+#button-right{
+  margin-top: -30px;
+  margin-left: 338px;
+}
+
+hr{
+  margin-top:20px;
+}
+
+
+/*contain*/
+.marketing{
+  margin-top: 400px;
+}
+/*footer*/
+.footer{
+  margin-top: 180px;
+}
+.contactMe h4{
+  text-align: center;
+
+}
+.CMlogo{
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.CMlogo img{
+  width: 30px;
+  height: 30px;
+}
+.contactMe img{
+  margin:20px 0 0 30px;
+}
+
+.pull-center a{
+  display: block;
+  text-align: center;
+}
+
+#footer-copyright p{
+  text-align: center;
+  font-family: 'Kaushan Script';
+  color: #f06292;
+}

@@ -1,0 +1,9 @@
+数据库使用：SQL Server 2008
+
+首页：Index.aspx
+后端页面：Bgindex.aspx
+登陆：Login.aspx
+
+用户名：20168
+密码：20168
+管理页面：Regsiter.aspx

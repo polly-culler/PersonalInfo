@@ -1,0 +1,46 @@
+/*the main */
+/*#project{
+	background: #f7f7f7;
+}*/
+
+/*marketing*/
+.marketing{
+  margin-top: 320px;
+}
+
+.span4{
+	margin: 0 0 35px ;
+	/*background: #fff;*/
+}
+.span4 img:hover{
+	box-shadow: -15px 15px 15px rgba(158,167,170,0.3);
+    -moz-box-shadow: -15px 15px 15px rgba(158,167,170,0.3);
+
+}
+
+/*background*/
+
+#myBtn{
+	margin-left: 5px;
+}
+/*modal content/box*/
+.modal-content{
+    background-color: #fefefe;
+    margin: 15% auto;/*15% from the top and centered*/
+    padding: 20px;
+    border: 1px solid #888;	
+    width: 100%;/*could be more or less, depending on screen size
+}
+/*the close button
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
